@@ -1,0 +1,32 @@
+body, html {
+    background-color: white;
+}
+.banner1 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 67px;
+}
+.banner2 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+.banner2head {
+    color: white;
+    background-color: black;
+    font-size: 41px;
+    border-radius: 10px;
+}
+.banner2bod {
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+input {
+    border-radius: 6px;
+    text-align: center;
+}
