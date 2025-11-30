@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room Organizer</title>
+        <link rel="stylesheet" href="main-style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <a href="main.html"><div class="banner1">Room Organizer</div></a>
+        <br><br><br>
+        <div class="banner2">
+            <div class="banner2head">Saved Dimensions</div>
+            <br>
+            <div class="banner2bod" id="displayLength">Length: </div>
+            <div class="banner2bod" id="displayWidth">Width: </div>
+        </div>
+        <script>
+            document.getElementById("displayLength").innerText = "Length: " + localStorage.getItem("length");
+            document.getElementById("displayWidth").innerText = "Width: " + localStorage.getItem("width");
+        </script>
+    </body>
+</html>

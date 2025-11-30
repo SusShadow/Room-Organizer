@@ -1,17 +1,20 @@
 <!DOCTYPE html5>
 <html>
 <head>
-    <title>Hello?</title>
+    <title>Room Organizer</title>
     <link rel="stylesheet" href="main-style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="banner1">Room Organizer</div>
+    <a href="main.html"><div class="banner1">Room Organizer</div></a>
     <br><br><br>
     <div class="banner2">
     <div class="banner2head">Dimensions</div>
     <br>
-    <div class="banner2bod">Length: <input placeholder="Length?" type="text"></div>
-    <div class="banner2bod">Width: <input placeholder="Width?" type="text"></div>
+    <div class="banner2bod">Length: <input placeholder="Length?" type="number" id="length"></div>
+    <div class="banner2bod">Width: <input placeholder="Width?" type="number" id="width"></div>
+    <br>
+    <button onclick="saveNumber()">Save</button>
     </div>
 </body>
 </html>

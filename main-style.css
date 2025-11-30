@@ -27,6 +27,12 @@ body, html {
     justify-content: center;
 }
 input {
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+button {
     border-radius: 6px;
     text-align: center;
+    font-size: 33px;
 }
